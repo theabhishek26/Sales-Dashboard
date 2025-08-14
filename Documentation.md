@@ -109,9 +109,3 @@ The Sales Dashboard delivers **real-time, actionable insights** for sales tracki
 
 ## Dashboard Link
 [View Live Dashboard](https://lookerstudio.google.com/reporting/21c26b8d-949a-4372-bd4c-869c1d32ff99/page/UaMUF)
-
----
-
-## Screenshots
-![Sales Dashboard Screenshot](3d910b71-e281-4b5c-9275-b42d3e2d7d21.png)  
-![Monthly Sales Trend](c6927886-2c5a-4276-9d19-7616081171b5.png)
