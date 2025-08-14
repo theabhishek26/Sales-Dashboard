@@ -1,19 +1,16 @@
 # Sales Dashboard Documentation
 
 ## Overview
-This Sales Dashboard provides an interactive view of sales performance across products, categories, and locations.  
-It helps track key metrics such as **total sales**, **orders**, **units sold**, **average order value**, **average order size**, and **profit**.  
-Users can filter the data by **date range**, **product**, **category**, and **state** for more targeted analysis.
+This Sales Dashboard provides an interactive view of sales performance across products, categories, and locations. It helps track key metrics such as **total sales**, **orders**, **units sold**, **average order value**, **average order size**, and **profit**. Users can filter the data by **date range**, **product**, **category**, and **state** for targeted analysis.
 
 ---
 
 ## Filters
 The dashboard includes dynamic filters to customize the displayed data:
-
-- **Select Date Range** – View sales data for a specific time period.
+- **Select Date Range** – View sales data for a specific period.
 - **Product** – Focus on sales metrics for a selected product.
 - **Category** – Filter sales based on category (e.g., Coffee, Tea).
-- **State** – Narrow data down to a particular state.
+- **State** – Narrow the data to a particular state.
 
 ---
 
@@ -33,16 +30,14 @@ The dashboard includes dynamic filters to customize the displayed data:
 ## Visualizations
 
 ### 1. Sales By Category (Pie Chart)
-Shows sales distribution between categories:
 - **Coffee** – 48.9%
 - **Tea** – 51.1%
 
-Helps identify performance balance between product types.
+This visualization helps compare performance between product categories.
 
 ---
 
 ### 2. Sales By Product (Bar Chart)
-Revenue per product:
 - Mystic Oolong – ₹1,572
 - Velvety Vanilla Latte – ₹1,489.6
 - Bold Brewed Mocha – ₹1,474.2
@@ -50,12 +45,12 @@ Revenue per product:
 - Bold Black Tea – ₹1,131
 - Espresso Energizer – ₹1,067.5
 
-Useful for finding best-selling products and underperformers.
+Shows revenue contribution by each product, highlighting top sellers.
 
 ---
 
 ### 3. Sales By Location (Bar Chart)
-State-wise sales performance:
+Top 10 states by sales:
 1. Georgia – ₹933.8
 2. North Carolina – ₹924.3
 3. Texas – ₹923.1
@@ -67,20 +62,48 @@ State-wise sales performance:
 9. California – ₹683.8
 10. Illinois – ₹658.9
 
-Provides geographical insights for marketing and distribution.
+Provides geographical insights for market targeting.
+
+---
+
+### 4. Monthly Sales Trend (Stacked Bar Chart)
+This chart shows month-by-month sales for **Tea** and **Coffee**, allowing analysis of seasonal trends and monthly performance.
+
+**Observations:**
+- **Highest Coffee Sales**: December (₹547.3)
+- **Highest Tea Sales**: June (₹464)
+- **Lowest Coffee Sales**: August (₹191.8)
+- **Lowest Tea Sales**: January (₹264)
+
+**Monthly Data (₹):**
+
+| Month     | Tea   | Coffee  |
+|-----------|-------|---------|
+| January   | 264   | 345.7   |
+| February  | 303   | 230.9   |
+| March     | 337.5 | 338.5   |
+| April     | 296   | 379.9   |
+| May       | 461.5 | 367.8   |
+| June      | 464   | 325     |
+| July      | 320.5 | 277.4   |
+| August    | 358.5 | 191.8   |
+| September | 266.5 | 373.5   |
+| October   | 379.5 | 368.5   |
+| November  | 307   | 285     |
+| December  | 338   | 547.3   |
 
 ---
 
 ## Usage
-- **Business Managers** – Monitor sales and profit trends.
-- **Marketing Teams** – Target high-potential locations and products.
-- **Operations** – Optimize inventory and supply chain.
-- **Product Teams** – Track performance and plan new launches.
+- **Business Managers** – Monitor sales and profit performance.
+- **Marketing Teams** – Identify high-potential products and locations.
+- **Operations** – Optimize stock levels and logistics.
+- **Product Teams** – Analyze product success and plan launches.
 
 ---
 
 ## Conclusion
-This Sales Dashboard delivers **real-time, actionable insights** for sales tracking, strategic decision-making, and targeted marketing campaigns.
+The Sales Dashboard delivers **real-time, actionable insights** for sales tracking, marketing strategies, and operational planning.
 
 ---
 
@@ -89,5 +112,6 @@ This Sales Dashboard delivers **real-time, actionable insights** for sales track
 
 ---
 
-## Screenshot
-![Sales Dashboard Screenshot](3d910b71-e281-4b5c-9275-b42d3e2d7d21.png)
+## Screenshots
+![Sales Dashboard Screenshot](3d910b71-e281-4b5c-9275-b42d3e2d7d21.png)  
+![Monthly Sales Trend](c6927886-2c5a-4276-9d19-7616081171b5.png)
